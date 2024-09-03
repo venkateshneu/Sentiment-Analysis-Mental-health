@@ -17,6 +17,7 @@ Model Training
 Naive Bayes: TF-IDF features used to train a Multinomial Naive Bayes model.
 Random Forest: Word2Vec embeddings used to train a Random Forest model.
 LSTM Neural Network: A sequential model with Bidirectional LSTM layers and embedding for text sequences.
+
 Evaluation
 
 Models are evaluated using the following metrics:
@@ -26,7 +27,9 @@ Recall: The ratio of true positive predictions to the total actual positives (i.
 F1-Score: The harmonic mean of precision and recall, providing a single metric that balances the two.
 Confusion Matrix: A summary of prediction results on a classification problem, showing the counts of true positives, true negatives, false positives, and false negatives.
 AUC-ROC: The Area Under the Receiver Operating Characteristic Curve, which provides a measure of the model's ability to distinguish between classes.
+
 Results
+
 Naive Bayes:
 
 Accuracy: 89.4%
